@@ -8,9 +8,14 @@
 #include "../aocDay.cpp"
 
 namespace AOC_2021{
-    class day01 : public AocDay{
+    class Day01 : public AocDay{
+    public:
+        Day01();
         void run() override;
         void test() override;
+
+    private:
+        int countIncrease(std::vector<std::string>& input);
     };
 }
 
