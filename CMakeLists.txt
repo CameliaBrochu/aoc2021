@@ -9,9 +9,9 @@ add_executable(aoc2021
         aoc2021.cpp
         aocDay.cpp
         day01/Day01.cpp
-        day01/Day01.h utils/utils.cpp)
+        day01/Day01.h utils/utils.cpp utils/utils.h)
 
 add_executable(day_01_tests
         aocDay.cpp
         day01/Day01.cpp
-        day01/Day01.h day01/day01_test.cpp utils/utils.cpp)
+        day01/Day01.h day01/day01_test.cpp utils/utils.cpp utils/utils.h)

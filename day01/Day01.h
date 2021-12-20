@@ -6,6 +6,8 @@
 #define AOC2021_DAY01_H
 
 #include "../aocDay.cpp"
+#include <vector>
+#include <string>
 
 namespace AOC_2021{
     class Day01 : public AocDay{
@@ -15,7 +17,8 @@ namespace AOC_2021{
         void test() override;
 
     private:
-        int countIncrease(std::vector<std::string>& input);
+        int countIncrease(const std::vector<std::string>& input) const;
+        int countIncreaseSlide(const std::vector<std::string>& input) const;
     };
 }
 
