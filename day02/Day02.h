@@ -18,6 +18,7 @@ namespace AOC_2021{
 
     private:
         void calculMovement(int& position, int&depth, const std::vector<std::string>& input);
+        void calculCorrectMovement(int& position, int&depth, const std::vector<std::string>& input);
     };
 }
 
